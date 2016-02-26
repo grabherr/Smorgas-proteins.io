@@ -259,12 +259,17 @@ score:
     </p>
     <p style="margin-bottom: 0in; font-weight: normal; line-height:
       100%">&gt; ../TangerineServer -t taxonomy.txt -col
-      plant_colors.txt &gt; ts.out &amp;</p>
+      plant_colors.txt &gt; ts.out &amp;</p>    
     <p style="margin-bottom: 0in; font-weight: normal; line-height:
       100%"> which intializes the server with the refseq plant database,
       instructs the server that both the communication layer, which
       controls the processes, as well as the web server run on the same
       physical machine (localhost). </p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height:
+      100%"> **** IMPORTANT *****: Please wait until the ProtServer 
+      processes are initialized (i.e. their CPU usage drops to 0)
+      before using the service!! This should take less than a few 
+      minutes.</p>      
     <p style="margin-bottom: 0in; font-weight: normal; line-height:
       100%"> Please note that the supplied taxonomy.txt file (derived
       from the NCBI taxonomy database) is not current and should be
